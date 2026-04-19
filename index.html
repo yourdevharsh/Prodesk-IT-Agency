@@ -13,7 +13,7 @@
   </head>
 
   <body
-    class="bg-slate-50 text-slate-600 dark:text-slate-400 dark:bg-slate-950"
+    class="bg-slate-50 text-slate-600 dark:text-slate-400 dark:bg-slate-950 overflow-x-hidden"
   >
     <header
       class="sticky top-0 px-5 backdrop-blur-xl bg-blue-500/20 border-b border-white/20 shadow-blue-500/20 shadow-lg"
@@ -60,24 +60,26 @@
           />
         </div>
 
-        <button id="menuBtn" class="md:hidden text-2xl transition duration-200">☰</button>
+        <button id="menuBtn" class="md:hidden text-2xl transition duration-200">
+          ☰
+        </button>
       </nav>
       <div
         id="menu"
-        class="md:hidden flex-col items-center space-y-4 pb-4 fixed right-0 bg-blue-200 px-8 py-2 translate-x-full opacity-0 pointer-events-none transition-all duration-300 ease-in-out dark:text-white dark:bg-blue-950"
+        class="md:hidden fixed top-0 right-0 bg-blue-200 px-8 py-4 -translate-y-full opacity-0 pointer-events-none transition-all duration-300 ease-in-out dark:text-white dark:bg-blue-950 shadow-2xl shadow-slate-900 rounded-2xl"
       >
-        <ul class="flex flex-col gap-2 text-center">
-          <li class="font-bold"><a href="index.html">Home</a></li>
-          <li class="font-bold"><a href="about.html">About</a></li>
-          <li class="font-bold"><a href="service.html">Service</a></li>
-          <li class="font-bold"><a href="contact.html">Contact</a></li>
+        <ul class="flex flex-col gap-5 text-center">
+          <li class="font-bold border-b"><a href="index.html">Home</a></li>
+          <li class="font-bold border-b"><a href="about.html">About</a></li>
+          <li class="font-bold border-b"><a href="service.html">Service</a></li>
+          <li class="font-bold border-b"><a href="contact.html">Contact</a></li>
         </ul>
         <img
           src="/sun.svg"
           alt="Theme Change Icon"
           width="20"
           height="20"
-          class="themeIcon m-auto"
+          class="themeIcon m-auto mt-5"
         />
       </div>
     </header>
@@ -106,7 +108,7 @@
       <section class="pt-20">
         <h2 class="text-center text-3xl mb-20">Services</h2>
         <div
-          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-0 items-stretch md:justify-items-center"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-0 items-stretch justify-items-center"
         >
           <div
             class="flex flex-col h-full card max-w-sm bg-white rounded-2xl overflow-hidden shadow-lg hover:-translate-y-3 transition duration-300 ease-in dark:bg-slate-800 dark:text-white border-slate-200 dark:border-slate-700 shadow-slate-900"
