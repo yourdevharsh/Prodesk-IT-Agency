@@ -1,19 +1,21 @@
 import "./style.css";
 
-const themeIcon = document.getElementById("themeIcon");
+const themeIcon = document.querySelectorAll(".themeIcon");
 const cards = document.querySelectorAll(".card");
-const footer = document.getElementById('footer');
+const footer = document.getElementById("footer");
 const menuBtn = document.getElementById("menuBtn");
 const menu = document.getElementById("menu");
 
-themeIcon.addEventListener("click", () => {
-  if (themeIcon.src.includes("sun.svg")) {
-    themeIcon.src = "/src/assets/moon.svg";
-  } else {
-    themeIcon.src = "/src/assets/sun.svg";
-  }
+themeIcon.forEach((icon) => {
+  icon.addEventListener("click", () => {
+    if (icon.src.includes("sun.svg")) {
+      icon.src = "/moon.svg";
+    } else {
+      icon.src = "/sun.svg";
+    }
 
-  document.documentElement.classList.toggle("dark");
+    document.documentElement.classList.toggle("dark");
+  });
 });
 
 menuBtn.addEventListener("click", () => {
