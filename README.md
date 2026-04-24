@@ -13,12 +13,12 @@ This project was built aiming for the **Level 3 (Advanced)** requirements, featu
 ## 📸 Screenshots
 
 ### Light Theme
-| Hero Section | Services Section | Contact | About |
+| Hero Section | Services Section | Contact Section | About Section |
 | :---: | :---: | :---: | :---: |
 | ![Light Mode Hero](/screenshots/light1.png) | ![Light Mode Services](/screenshots/light2.png) | ![Light Mode Contact](/screenshots/light3.png) | ![Light Mode About](/screenshots/light4.png) |
 
 ### Dark Theme
-| Hero Section | Services Section | Contact & Footer | Contact & Footer |
+| Hero Section | Services Section | Contact Section | About Section |
 | :---: | :---: | :---: | :---: |
 | ![Dark Mode Hero](/screenshots/dark1.png) | ![Dark Mode Services](/screenshots/dark2.png) | ![Dark Mode Contact](/screenshots/dark3.png) | ![Dark Mode About](/screenshots/dark4.png) |
 
